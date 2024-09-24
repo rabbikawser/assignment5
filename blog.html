@@ -8,7 +8,7 @@
  <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
  <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body class=" text-black bg-white">
+<body class=" text-black bg-white h-screen">
     
     <header>
         <nav class=" bg-[#F9F7F3] ">
@@ -31,21 +31,44 @@
     </header>
     <main class="w-10/12 mx-auto">
         <h1 class=" text-4xl font-bold"> Important FAQ</h1>
-        <div class=" border rounded mt-10">
-            <h1  class=" font-bold">what is document object model?</h1>
-            <p> The DOM (Document Object Model) is a programming interface provided by browsers that allows developers to interact with and manipulate the structure, style, and content of a webpage. It represents the HTML or XML document as a tree of nodes, where each element, attribute, and piece of text is a node in that tree.</p>
-        </div>
-        <div class=" border rounded mt-10">
-            <h1  class=" font-bold">How do select element  from dom?</h1>
-            <p>In JavaScript, there are several ways to select elements from the DOM. These methods allow you to access and manipulate HTML elements using various selectors, such as IDs, classes, tags, or CSS selectors.</p>
-        </div>
-        <div class=" border rounded mt-10">
-            <h1  class=" font-bold">what is event delegation in context of dom?</h1>
-            <p> Event delegation is a technique in JavaScript and DOM manipulation where you attach a single event listener to a parent element rather than individual child elements. This allows the event listener to handle events triggered by its children, even if the children are added dynamically after the initial page load.</p>
-        </div>
-        <div class=" border rounded mt-10">
+      
+          
+        <!-- <div class=" border rounded mt-10">
             <h1  class=" font-bold">How do u manupulate elements in dom?</h1>
             <p> You can manipulate elements in the DOM using JavaScript. DOM manipulation allows you to dynamically change the content, structure, and styles of a webpage. Below are common ways to manipulate elements in the DOM:</p>
+        </div> -->
+        <div class=" border rounded mt-10"></div>
+        <div class="collapse collapse-arrow mt-3 border">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">How do select element  from dom?</div>
+            <div class="collapse-content">
+                <p> Event delegation is a technique in JavaScript and DOM manipulation where you attach a single event listener to a parent element rather than individual child elements. This allows the event listener to handle events triggered by its children, even if the children are added dynamically after the initial page load.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow mt-3 border">
+            <input type="radio" name="my-accordion-2" checked="checked" />
+            <div class="collapse-title text-xl font-medium">what is  element of  dom?</div>
+            <div class="collapse-content">
+                <p> Event delegation is a technique in JavaScript and DOM manipulation where you attach a single event listener to a parent element rather than individual child elements. This allows the event listener to handle events triggered by its children, even if the children are added dynamically after the initial page load.</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow mt-3 border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">what is event delegation in context of dom?</div>
+            <div class="collapse-content">
+                <p> You can manipulate elements in the DOM using JavaScript. DOM manipulation allows you to dynamically change the content, structure, and styles of a webpage. Below are common ways to manipulate elements in the DOM:</p>
+            </div>
+          </div>
+          <div class="collapse collapse-arrow mt-3 border">
+            <input type="radio" name="my-accordion-2" />
+            <div class="collapse-title text-xl font-medium">How do u manupulate elements in dom?</div>
+            <div class="collapse-content">
+                <p> Event delegation is a technique in JavaScript and DOM manipulation where you attach a single event listener to a parent element rather than individual child elements. This allows the event listener to handle events triggered by its children, even if the children are added dynamically after the initial page load.</p>
+            </div>
+          </div>
+        
+          
+          </div>
         </div>
     </main>
 
