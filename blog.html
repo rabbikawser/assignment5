@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>Document</title>
+    
+ <link href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css" rel="stylesheet" type="text/css" />
+ <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class=" text-black bg-white">
+    
+    <header>
+        <nav class=" bg-[#F9F7F3] ">
+            <div class="w-10/12 mx-auto py-5">
+               <div class=" flex justify-between">
+                     <button onclick="clk()" class="bg-[#B4F461] px-5 py-3 rounded">Home</button>
+                      <!-- <a href="index.html" class="bg-[#B4F461] px-5 py-3 rounded">Home</a> -->
+                    <div class=" flex items-center gap-3">
+                     <img src="assets/logo.png" alt="">
+                     <h1>Donate Bangladesh</h1>
+                     <button class="bg-[#B4F461] px-5 py-3 rounded">Blog</button>
+                    </div>
+                    <div class=" flex items-center">
+                     <img src="assets/coin.png" alt="">
+                     <h1><span id="money">5500</span>BDT</h1>
+                    </div>
+               </div>
+            </div> 
+       </nav>
+    </header>
+    <main class="w-10/12 mx-auto">
+        <h1 class=" text-4xl font-bold"> Important FAQ</h1>
+        <div class=" border rounded mt-10">
+            <h1  class=" font-bold">what is document object model?</h1>
+            <p> The DOM (Document Object Model) is a programming interface provided by browsers that allows developers to interact with and manipulate the structure, style, and content of a webpage. It represents the HTML or XML document as a tree of nodes, where each element, attribute, and piece of text is a node in that tree.</p>
+        </div>
+        <div class=" border rounded mt-10">
+            <h1  class=" font-bold">How do select element  from dom?</h1>
+            <p>In JavaScript, there are several ways to select elements from the DOM. These methods allow you to access and manipulate HTML elements using various selectors, such as IDs, classes, tags, or CSS selectors.</p>
+        </div>
+        <div class=" border rounded mt-10">
+            <h1  class=" font-bold">what is event delegation in context of dom?</h1>
+            <p> Event delegation is a technique in JavaScript and DOM manipulation where you attach a single event listener to a parent element rather than individual child elements. This allows the event listener to handle events triggered by its children, even if the children are added dynamically after the initial page load.</p>
+        </div>
+        <div class=" border rounded mt-10">
+            <h1  class=" font-bold">How do u manupulate elements in dom?</h1>
+            <p> You can manipulate elements in the DOM using JavaScript. DOM manipulation allows you to dynamically change the content, structure, and styles of a webpage. Below are common ways to manipulate elements in the DOM:</p>
+        </div>
+    </main>
+
+
+        <script src="blog.js"></script>
+</body>
+</html>
